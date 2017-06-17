@@ -1,0 +1,50 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+                                    JUSTCLEAN SAMPLE APP
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+APPROACH :-
+
+    I have used Pure MVP Model Approach throughout the application. This structure makes the application
+
+    so robust that it keeps the data and data manupulation part totally seprated from the user interface
+
+    section.
+
+    Presenter is fully responsible for all the interations between data eitheir comming from server , or
+
+    DataBase or AppPrefrences and gives to the viewer.
+
+    This App works in both online and offline mode.
+
+
+Major Libraries :-
+
+    I have used very useful libraries which are mainly used by very huge companied like twitter, facebbok,
+
+    or Netflix.
+
+    for eg:-
+
+    -I have used RxJava to overcome expensive method calls and to fasten the performance for the application.
+
+    not only this it has huge advantages.
+
+    -Dagger2 by google is a dependency injection librabry which is also very useful.
+
+    -Butter Knife to rid of findviewbyid method call everytime.
+
+    -Green Dao ORM is for database to make life easy and fast
+
+BaseUrl config is done as per the standards using defalut class BuildConfig in Gradle.
+
+
+                             ////////////////////////////////////////////////
+
+                                            Much more to come
+                                              HAPPY CODING
+
+                             ///////////////////////////////////////////////
